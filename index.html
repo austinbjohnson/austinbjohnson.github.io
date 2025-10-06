@@ -314,12 +314,18 @@
   <footer>
     <div class="container">&copy; <span id="year"></span> Austin Johnson · 28eme Studio. All rights reserved.</div>
     <div class="container" style="margin-top:0.4rem;font-size:0.8rem;">Consulting hub: <a href="https://28eme.ca" target="_blank" rel="noopener">28eme.ca</a> · Personal HQ: <a href="https://austinbjohnson.com" target="_blank" rel="noopener">austinbjohnson.com</a></div>
+    <div class="container" style="margin-top:0.3rem;font-size:0.75rem;color:var(--muted);">Built on GitHub Pages with Codex · Last updated <span id="last-updated"></span></div>
   </footer>
 
   <script>
     const yearEl = document.getElementById("year");
     if (yearEl) {
       yearEl.textContent = new Date().getFullYear();
+    }
+    const lastUpdatedEl = document.getElementById("last-updated");
+    if (lastUpdatedEl) {
+      const updated = new Date(document.lastModified);
+      lastUpdatedEl.textContent = updated.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
     }
 
     async function loadProjects() {
