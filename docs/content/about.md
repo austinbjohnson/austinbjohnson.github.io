@@ -1,5 +1,10 @@
 # Austin Johnson — Working Bio Draft
 
+**Status:** working draft  
+**Owner:** Austin Johnson  
+**Last updated:** 2025-02-14
+
+
 ## Core Tagline
 AI-native product manager obsessed with APIs and automation, using event-driven Composite AI to dissolve technology constraints for anyone trying to solve complex or creative problems.
 

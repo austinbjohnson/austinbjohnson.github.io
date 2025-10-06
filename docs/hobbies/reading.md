@@ -1,5 +1,10 @@
 # Reading Page Outline
 
+**Status:** outline  
+**Owner:** Austin Johnson  
+**Last updated:** 2025-02-14
+
+
 ## Intent
 Share reading lists, AI-assisted summaries, and automations that track highlights across mediums.
 

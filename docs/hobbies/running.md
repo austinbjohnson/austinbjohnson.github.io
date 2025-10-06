@@ -1,5 +1,10 @@
 # Running Page Outline
 
+**Status:** outline  
+**Owner:** Austin Johnson  
+**Last updated:** 2025-02-14
+
+
 ## Intent
 Highlight training blocks, automate performance insights, and share trails or races that inspire future goals.
 

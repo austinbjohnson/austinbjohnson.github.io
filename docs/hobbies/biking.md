@@ -1,5 +1,10 @@
 # Biking Page Outline
 
+**Status:** outline  
+**Owner:** Austin Johnson  
+**Last updated:** 2025-02-14
+
+
 ## Intent
 Document rides, training insights, automation ideas for route planning, and gear experiments.
 

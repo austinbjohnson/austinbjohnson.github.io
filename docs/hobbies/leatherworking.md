@@ -1,5 +1,10 @@
 # Leatherworking Page Outline
 
+**Status:** outline  
+**Owner:** Austin Johnson  
+**Last updated:** 2025-02-14
+
+
 ## Intent
 Document handmade leather projects, track patterns and materials, and surface automation that speeds up craft documentation.
 
