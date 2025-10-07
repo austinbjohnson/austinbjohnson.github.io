@@ -171,6 +171,31 @@
       align-items: start;
       margin-top: 2rem;
     }
+    .resource-grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+    .resource-card {
+      position: relative;
+    }
+    .resource-card a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-top: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--accent);
+    }
+    .resource-card a::after {
+      content: "→";
+      font-size: 0.95rem;
+      transition: transform 160ms ease;
+    }
+    .resource-card a:hover::after {
+      transform: translateX(3px);
+    }
     .github-heatmap img {
       width: 100%;
       border-radius: 1rem;
@@ -299,13 +324,30 @@
       </section>
 
       <section>
-        <h2>Ready to collaborate</h2>
-        <div class="card">
-          <p>Have an AI-native automation idea, a workflow that needs love, or a creative side project you want to amplify? Browse services at <a href="https://28eme.ca" target="_blank" rel="noopener">28eme.ca</a> or reach out directly.</p>
-          <div class="cta-group" style="margin-top:1.8rem;">
-            <a class="cta" href="mailto:hello@28eme.com?subject=Collaboration%20with%2028eme">Start a conversation</a>
-            <a class="cta secondary" href="https://github.com/austinbjohnson" target="_blank" rel="noopener">Latest code & notes</a>
+        <h2>Telemetry placeholders</h2>
+        <p class="section-lead">Activity feeds are coming soon—these cards will light up once automation hooks are wired.</p>
+        <div class="resource-grid">
+          <div class="card resource-card">
+            <h3 style="margin-top:0;">Strava rides & runs</h3>
+            <p>Drafting the connector that pulls ride notes and training blocks directly from Strava without leaking private workouts.</p>
+            <a href="https://www.strava.com/athletes/19650448" target="_blank" rel="noopener">Visit Strava placeholder</a>
           </div>
+          <div class="card resource-card">
+            <h3 style="margin-top:0;">Goodreads reading log</h3>
+            <p>Porting highlights into a lightweight shelf so current reads and automation experiments stay in sync.</p>
+            <a href="https://www.goodreads.com/abj0028" target="_blank" rel="noopener">View Goodreads placeholder</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Next modules in queue</h2>
+        <div class="card note" style="border-style: solid;">
+          <ul class="todo-list" style="margin:0;">
+            <li><strong>Now blurb:</strong> lightweight snapshot of focus areas, updated monthly.</li>
+            <li><strong>Reading list:</strong> pull Goodreads shelves into themed stacks with automation summaries.</li>
+            <li><strong>Automation lab notes:</strong> short write-ups on experiments before they become full projects.</li>
+          </ul>
         </div>
       </section>
     </div>
